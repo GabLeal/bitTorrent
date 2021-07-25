@@ -1,11 +1,11 @@
-COM240.1 - REDES DE COMPUTADORES
-TRABALHO 02
+### COM240.1 - REDES DE COMPUTADORES 
+#### TRABALHO 02
 
 Grupo composto por:
-CAMILA DAS GRACAS GRANDE DE FREITAS     - 2019005186
-GABRIEL LEAL DOS SANTOS                 - 2019001418
-GUSTAVO REZENDE DE ALMEIDA              - 2019005257
-LAVYNIA DE OLIVEIRA                     - 2019014971
+<p>CAMILA DAS GRACAS GRANDE DE FREITAS     - 2019005186</p>
+<p>GABRIEL LEAL DOS SANTOS                 - 2019001418</p>
+<p>GUSTAVO REZENDE DE ALMEIDA              - 2019005257</p>
+<p>LAVYNIA DE OLIVEIRA                     - 2019014971</p>
 
 
 Para realização deste trabalho foram utilizados os códigos, PDFs, Aulas e Materiais restantes disponibilizados no SIGAA.
@@ -18,13 +18,36 @@ Para se realizar o funcionamento da aplicação deve ser executado dois clientes
 Para executar a aplicação:
 
 Comandos para o servidor:
-    Compilar: gcc server.c -o server -lpthread
-    Executar: ./server 127.0.0.1 <nome_do_arquivo>
 
-Comandos para o Cliente 1:
-    Compilar: gcc torrent_client.c -o client -lpthread
-    Executar: ./client 127.0.0.1 2020
+Compilar: 
 
-Comandos para o Cliente 2:
-    Compilar: gcc torrent_client.c -o client -lpthread
-    Executar: ./client 127.0.0.1 2021
+```
+    gcc server.c -o server -lpthread
+```
+
+ Executar: 
+```
+   ./server 127.0.0.1 <nome_do_arquivo>
+```
+
+Comandos para o Cliente:
+
+Compilar: 
+
+```
+    gcc torrent_client.c -o client -lpthread
+```
+ Executar: 
+ 
+ chamando cliente 1
+
+```
+   ./client 127.0.0.1 2020
+```
+
+ chamando cliente 2
+
+```
+   ./client 127.0.0.1 2021
+```
+ 
